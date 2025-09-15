@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
+  <defs>
+    <linearGradient id="g" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#c6f0ff"/>
+      <stop offset="1" stop-color="#a0e0ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#e8f6ff"/>
+  <g transform="translate(40,40)">
+    <rect x="0" y="90" width="150" height="120" rx="12" fill="#ffd6a6" stroke="#d89a5a"/>
+    <rect x="190" y="60" width="150" height="150" rx="12" fill="#ffd6e7" stroke="#d89ab5"/>
+    <rect x="380" y="40" width="200" height="170" rx="18" fill="#c8ffd8" stroke="#78caa2"/>
+    <circle cx="720" cy="80" r="40" fill="#fff59a"/>
+  </g>
+  <text x="20" y="280" font-family="Verdana" font-size="14" fill="#47636a">Miasto — miejsce pierwszych przygód</text>
+</svg>
