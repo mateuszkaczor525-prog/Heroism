@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Hero-ish — prototyp RPG</title>
+<link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <div class="logo">Hero-ish</div>
+      <div class="hud">
+        <div id="hp" class="hud-item">HP: —</div>
+        <div id="energy" class="hud-item">Energia: —</div>
+        <div id="gold" class="hud-item">Złoto: —</div>
+        <button id="btn-save" class="small">Zapisz</button>
+        <button id="btn-reset" class="small danger">Reset</button>
+      </div>
+    </header>
+
+    <main class="main-grid">
+      <aside class="leftpanel">
+        <section class="card">
+          <h3>Postać</h3>
+          <div id="player-card"></div>
+        </section>
+
+        <section class="card">
+          <h3>Ekwipunek</h3>
+          <div id="inventory"></div>
+        </section>
+
+        <section class="card">
+          <h3>Trening</h3>
+          <div class="controls">
+            <button id="train-skill" class="btn">Trenuj (koszt: 10 energii)</button>
+            <div id="train-msg" class="muted"></div>
+          </div>
+        </section>
+      </aside>
+
+      <section class="centerpanel">
+        <div class="card scene" id="scene">
+          <h2 id="scene-title">Miasto</h2>
+          <div id="scene-art" class="scene-art">
+            <!-- SVG tło -->
+            <img src="assets/svg/town.svg" alt="miasto" style="width:100%;height:100%;object-fit:cover"/>
+          </div>
+
+          <div class="scene-controls">
+            <button id="btn-missions" class="btn primary">Misje</button>
+            <button id="btn-shop" class="btn">Sklep</button>
+            <button id="btn-adventure" class="btn accent">Wyprawa (ryzyko)</button>
+            <div id="scene-log" class="log muted"></div>
+          </div>
+        </div>
+
+        <div class="card" id="dynamic-area">
+          <!-- tutaj ładowane są misje / sklep / walka -->
+        </div>
+      </section>
+
+      <aside class="rightpanel">
+        <section class="card">
+          <h3>Statystyki</h3>
+          <div id="stats"></div>
+        </section>
+
+        <section class="card">
+          <h3>Drzewko umiejętności</h3>
+          <div id="skills"></div>
+        </section>
+
+        <section class="card">
+          <h3>Debug / Save</h3>
+          <div class="controls">
+            <button id="export-save" class="small">Eksportuj</button>
+            <input id="import-file" type="file" accept=".json" />
+          </div>
+        </section>
+      </aside>
+    </main>
+
+    <footer class="footer muted">Prototyp — grafiki demo. Wzorowane mechaniki: Hero Zero. © Twój projekt</footer>
+  </div>
+
+<script type="module" src="src/game.js"></script>
+</body>
+</html>
