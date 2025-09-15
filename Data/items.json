@@ -1,0 +1,101 @@
+[
+  {
+    "id": "wooden-sword",
+    "name": "Drewniany miecz",
+    "slot": "weapon",
+    "atk": 2,
+    "def": 0,
+    "price": 50,
+    "desc": "Stary, ale działa."
+  },
+  {
+    "id": "iron-sword",
+    "name": "Żelazny miecz",
+    "slot": "weapon",
+    "atk": 6,
+    "def": 0,
+    "price": 180,
+    "desc": "Solidne ostrze."
+  },
+  {
+    "id": "steel-sword",
+    "name": "Stalowy miecz",
+    "slot": "weapon",
+    "atk": 10,
+    "def": 0,
+    "price": 420,
+    "desc": "Dobre do ścinania problemów."
+  },
+  {
+    "id": "iron-helm",
+    "name": "Żelazny hełm",
+    "slot": "helmet",
+    "atk": 0,
+    "def": 2,
+    "price": 80,
+    "desc": "Chroni głowę przed głupimi pomysłami."
+  },
+  {
+    "id": "golden-helm",
+    "name": "Złoty hełm",
+    "slot": "helmet",
+    "atk": 0,
+    "def": 4,
+    "price": 300,
+    "desc": "Wygląda wspaniale, działa lepiej."
+  },
+  {
+    "id": "leather-boots",
+    "name": "Skórzane buty",
+    "slot": "boots",
+    "atk": 0,
+    "def": 1,
+    "price": 40,
+    "desc": "Szybsze stąpanie."
+  },
+  {
+    "id": "swift-boots",
+    "name": "Buty sprintera",
+    "slot": "boots",
+    "atk": 0,
+    "def": 2,
+    "price": 160,
+    "desc": "Pozwalają unikać niektórych obrażeń."
+  },
+  {
+    "id": "steel-armor",
+    "name": "Stalowa zbroja",
+    "slot": "armor",
+    "atk": 0,
+    "def": 5,
+    "price": 200,
+    "desc": "Ciężka, ale solidna."
+  },
+  {
+    "id": "mythril-armor",
+    "name": "Zbroja mithrilowa",
+    "slot": "armor",
+    "atk": 0,
+    "def": 11,
+    "price": 900,
+    "desc": "Bardzo lekka jak na swoją ochronę."
+  },
+  {
+    "id": "lucky-belt",
+    "name": "Pasek szczęścia",
+    "slot": "belt",
+    "atk": 0,
+    "def": 0,
+    "price": 120,
+    "desc": "Daje +5% dropów (humorystycznie)."
+  },
+  {
+    "id": "tough-belt",
+    "name": "Pasek wytrzymałości",
+    "slot": "belt",
+    "atk": 0,
+    "def": 1,
+    "price": 220,
+    "desc": "Trochę bardziej przydatny."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "q1",
+    "title": "Ratunek kurczaka",
+    "desc": "Lokalny farmer zgubił swojego kurczaka. Mały, ale wartościowy!",
+    "difficulty": 1,
+    "exp": 20,
+    "gold": 15,
+    "energy": 5,
+    "chanceItem": 0.05
+  },
+  {
+    "id": "q2",
+    "title": "Złodzieje w zaułku",
+    "desc": "Kilku drobnych złodziejaszków robi zamieszanie. Rozważ wariant ryzykowny.",
+    "difficulty": 2,
+    "exp": 50,
+    "gold": 40,
+    "energy": 12,
+    "chanceItem": 0.12
+  },
+  {
+    "id": "q3",
+    "title": "Smoczek domowy",
+    "desc": "Ktoś widział małego smoczka w lesie. Może warto sprawdzić.",
+    "difficulty": 3,
+    "exp": 120,
+    "gold": 120,
+    "energy": 25,
+    "chanceItem": 0.3
+  },
+  {
+    "id": "q4",
+    "title": "Grobowiec zapomnianych żartów",
+    "desc": "Stara krypta pełna zagadek i pułapek. Dobre dla ciekawskich.",
+    "difficulty": 4,
+    "exp": 240,
+    "gold": 260,
+    "energy": 40,
+    "chanceItem": 0.4
+  },
+  {
+    "id": "q5",
+    "title": "Turniej mieczy (amatorzy)",
+    "desc": "Krótki turniej, nagrody za odwagę.",
+    "difficulty": 2,
+    "exp": 80,
+    "gold": 90,
+    "energy": 18,
+    "chanceItem": 0.2
+  },
+  {
+    "id": "q6",
+    "title": "Zaginiona mapa",
+    "desc": "Mapa do skarbu — może znajdziesz coś większego.",
+    "difficulty": 3,
+    "exp": 150,
+    "gold": 200,
+    "energy": 28,
+    "chanceItem": 0.35
+  }
+]
